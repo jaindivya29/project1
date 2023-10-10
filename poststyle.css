@@ -1,0 +1,21 @@
+.blog1 h4{
+    font-size: 40px;
+    width:50%;
+    margin-bottom: 20px;
+}
+.blog1{
+    margin:25px;
+    background: beige;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input{
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 88px 88px 88px 88px;
+-moz-border-radius: 88px 88px 88px 88px;
+-webkit-border-radius: 88px 88px 88px 88px;
+/*border: 0px solid #000000;*/
+
+}
