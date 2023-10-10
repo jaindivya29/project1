@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Times New Roman";
+}
+
+nav{
+    width:100%;
+    background:beige;
+    -webkit-box-shadow: 2px 14px 111px -20px rgba(31,29,31,0.81);
+-moz-box-shadow: 2px 14px 111px -20px rgba(31,29,31,0.81);
+box-shadow: 2px 14px 111px -20px rgba(31,29,31,0.81);
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+nav h1{
+    text-align: center;
+    color:rgb(42, 26, 6);
+    font-size:30px;
+    margin:20px;
+    margin-bottom: 5px;
+    letter-spacing:2px;
+    font-weight:bold;
+    text-decoration: underline overline rgb(36, 31, 26);
+}
+
+nav h6{
+    text-align: center;
+    color:rgb(42, 26, 6);
+    font-size:15px;
+    letter-spacing:-1px;
+    font-weight:lighter;
+}
+
+nav .a{
+    text-decoration: none;
+    color:rgb(187, 16, 16);
+    position:fixed;
+    top:0;
+    right:0;
+    width:100%;
+    padding:25px 0;
+}
+
+nav .gps{
+    margin-top: 17px;
+    margin-bottom:30px;
+}
+
+.blog{
+    margin:25px;
+    background: beige;
+    padding: 10px;
+    border-radius: 10px;
+}
+.posts{
+    margin:25px auto;
+    width:60%;
+}
+
+.posts h4{
+    text-align:center;
+    margin:auto;
+    letter-spacing: -1px;
+    width:45%;
+    margin-bottom: 2px;
+    
+}
+.blog h4{
+    font-size: 40px;
+    width:50%;
+    margin-bottom: 20px;
+}
+
+.blog button1{
+    margin: 3px;
+    padding:2px;
+    border:none;
+    background: rgb(179, 179, 163);
+    cursor:pointer;
+}
+
+.blog button1:active{
+    background-color: green;
+}
+.blog button2{
+    margin: 3px;
+    padding:2px;
+    border:none;
+    background: rgb(179, 179, 163);
+    cursor:pointer;
+}
+
+.blog button2:active{
+    background-color: red;
+}
+.blog button3{
+    margin-left:500px;
+    cursor:pointer;
+}
